@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Performance Prediction</title>
+</head>
+
+<body>
+
+    <h1>Student Performance Prediction System</h1>
+
+    <form method="POST">
+
+        <label>Attendance (%)</label><br>
+        <input type="number" name="attendance" required><br><br>
+
+        <label>Study Hours</label><br>
+        <input type="number" name="study_hours" required><br><br>
+
+        <label>Internal Marks</label><br>
+        <input type="number" name="internal_marks" required><br><br>
+
+        <button type="submit">Predict</button>
+
+    </form>
+
+    {% if prediction %}
+
+    <h2>
+        Predicted Final Marks: {{ prediction }}
+    </h2>
+
+    {% endif %}
+
+</body>
+</html>
