@@ -1,0 +1,22 @@
+body{
+    background:#f5f7fa;
+    font-family:Arial, sans-serif;
+}
+
+.hero{
+    padding:40px;
+}
+
+.hero h1{
+    font-weight:bold;
+    color:#0d6efd;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+}
+
+footer{
+    margin-top:50px;
+}
